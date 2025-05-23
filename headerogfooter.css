@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+/* Header */
+.header{
+    background-color: #B5A38F;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+.nav a {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1rem; /* Optional: Adjust font size */
+    padding: 0.5rem; /* Optional: Add padding for spacing */
+    margin-top: 30px;
+}
+nav a:hover {
+    font-size: 1.2rem;
+}
+.nav a.active {
+    position: relative;
+    color: white; /* Keep the text color consistent */
+}
+
+.nav a.active::after {
+    content: '';
+    position: absolute;
+    bottom: 40px; /* Adjust the distance from the text */
+    left: 0;
+    width: 100%; /* Full width of the link */
+    height: 3px; /* Thickness of the line */
+    background-color: white; /* Line color */
+}
+
+.logo{
+  width: 100px;
+  height: 110px;
+}
+
+/* Footer */
+.hb-footer {
+    background-color: #B5A38F;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .hb-footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  
+  .hb-footer-content > div {
+    flex: 1;
+    min-width: 550px;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-top: 3rem;
+  }
+  
+  .hb-footer h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hb-socials {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .hb-socials img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .hb-logo {
+    text-align: center;
+  }
+  
+  .hb-logo img {
+    width: 200px;
+    height: auto;
+    
+    
+  }
+  
+  .hb-footer-bottom {
+    text-align: center;
+    font-size: 1.5 rem;
+    margin-top: 30px;
+  }

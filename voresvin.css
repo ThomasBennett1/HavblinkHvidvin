@@ -1,0 +1,119 @@
+h1{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.kystbris-feature {
+    font-family: sans-serif;
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin:0 auto;
+    align-items: center;
+  }
+  
+  .kystbris-feature h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+  
+  .kystbris-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+  
+  .wine-img {
+    width: 250px;
+    height: auto;
+    
+
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin-left: 100px;
+
+  }
+  
+  .wine-info h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .wine-info p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  .wine-info h4 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+ .rating > p{
+    font-size: 2rem;
+ }
+
+  .rating img {
+    vertical-align: middle;
+    height: 24px;
+  }
+  
+  .buy-btn {
+    background-color: #815e3f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .review-slider {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .reviews {
+    display: flex;
+    gap: 20px;
+    min-width: 100%;
+  }
+  
+  .review {
+    scroll-snap-align: start;
+    min-width: 250px;
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .review-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
