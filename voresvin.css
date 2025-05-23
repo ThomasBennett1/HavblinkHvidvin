@@ -33,8 +33,7 @@ h1{
   .wine-img {
     width: 250px;
     height: auto;
-    
-
+    margin-left: 100px;
   }
   
   .right-section {
@@ -56,21 +55,14 @@ h1{
   
   .wine-info p {
     margin: 10px 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
   }
-  .wine-info h4 {
-    font-size: 1.5rem;
-    font-weight: normal;
-    margin-top: 20px;
-  }
- .rating > p{
-    font-size: 2rem;
- }
+ 
 
   .rating img {
     vertical-align: middle;
-    height: 24px;
+    height: 40px;
   }
   
   .buy-btn {
@@ -81,8 +73,17 @@ h1{
     cursor: pointer;
     font-weight: bold;
     margin-top: 10px;
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
+    border-radius: 8px;
+    margin-left: 40%;
+    margin-top: 30px;
+    margin-bottom:30px;
   }
+    .buy-btn:hover {
+        background-color: white;
+        color: #6a4d3a;
+    }
+
   
   .review-slider {
     overflow-x: auto;
