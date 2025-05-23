@@ -6,9 +6,11 @@
 
   body, html {
     height: 100%;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
 
+
+/* landing page */
   .hero {
     position: relative;
     height: 100vh;
@@ -74,10 +76,179 @@
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    
-    
   }
   .arrow img {
     width: 70px; /* Adjust the width */
     height: auto; /* Maintain aspect ratio */
 }
+
+/* about section */
+.about-section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    
+  }
+  
+  .about-background {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .about-overlay {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem;
+    max-width: 600px;
+    height: 460px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .about-text {
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+  }
+
+  /* award section */
+  .award-section {
+    background-color: #fff;
+    padding: 3rem 1rem;
+  }
+  
+  .award-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+  
+  .award-image-wrapper {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  
+  .award-image {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    margin-left: -2rem;
+  }
+  
+  .award-text-content {
+    flex: 1 1 400px;
+    max-width: 600px;
+  }
+  
+  .award-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: -3rem;
+    text-align: center;
+    line-height: 3rem;
+
+  }
+  
+  .award-paragraph {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .award-buttons {
+    display: flex;
+    gap: 6rem;
+    margin-top: 3rem;
+    justify-content: center;
+  }
+  
+  .award-button {
+    background-color: #b49b5b;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 4px 4px 1px rgba(0,0,0,0.4);
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+    .award-button:hover {
+        background-color: white;
+        color: #b49b5b;
+    }
+
+/* footer */
+.hb-footer {
+    background-color: #A0896F;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .hb-footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+  
+  .hb-footer-content > div {
+    flex: 1;
+    min-width: 550px;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-top: 3rem;
+  }
+  
+  .hb-footer h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hb-socials {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .hb-socials img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .hb-logo {
+    text-align: center;
+  }
+  
+  .hb-logo img {
+    width: 200px;
+    height: auto;
+    
+    
+  }
+  
+  .hb-footer-bottom {
+    text-align: center;
+    font-size: 1.5 rem;
+    margin-top: 30px;
+  }
