@@ -1,0 +1,72 @@
+.havblink-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .intro-text, .closing-text {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .card-dark {
+    background-color: #7B3F30;
+  }
+  
+  .card-orange {
+    background-color: #D19A66;
+    color: #000;
+  }
+  
+  .card-light {
+    background-color: #A9A9A9;
+  }
+  
+  .card-green {
+    background-color: #789262;
+  }
+  
+  .card a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .card-orange a {
+    color: #000;
+  }
+  
+  img {
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .columns {
+      flex-direction: column;
+    }
+  }
+  

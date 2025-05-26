@@ -1,0 +1,125 @@
+h1{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* === SOLARIS DRUEN SECTION === */
+.solaris-druen {
+    margin: 2rem 0;
+    padding: 0 1rem;
+  }
+  
+  .solaris-indhold {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .solaris-billede {
+    width: 550px;
+    height: auto;
+  }
+  
+  .solaris-tekst {
+    max-width: 550px;
+  }
+  
+  .solaris-tekst h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  .solaris-tekst p {
+    line-height: 1.8;
+    font-size: 1.3rem;
+    color: #333;
+    text-align: justify;
+  }
+  
+  
+  /* === HISTORIEN OM SOLARIS SECTION === */
+  .historie-solaris {
+    margin: 4rem 0;
+    padding: 0 1rem;
+    position: relative;
+  }
+  
+  .tekst-historie-solaris {
+    background-color: #D4A373;
+    color: white;
+    padding: 3rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+    max-width: 1100px;
+    margin: -60px auto 0 auto;
+  }
+  
+  .tekst-historie-solaris h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .kolonner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  
+  .kolonner p {
+    flex: 1 1 250px;
+  }
+  
+  
+  /* === ANERKENDELSE SECTION === */
+  .anerkendelse {
+    margin: 4rem 0;
+    padding: 0 1rem;
+  }
+  
+  .anerkendelse-indhold {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .tekst-anerkendelse {
+    max-width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  
+  .tekst-anerkendelse h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .decanter-badge {
+    width: 450px;
+    height: auto;
+  }
+  
+  .knap-laes-mere {
+    margin-top: 2rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #B5975B;
+    color: white;
+    font-weight: bold;
+    border: black 1px solid;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 33%;
+  }

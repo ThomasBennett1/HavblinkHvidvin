@@ -1,0 +1,78 @@
+h1{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.om-vingaarden,
+.besoeg-vingaard,
+.produktion,
+.baeredygtighed {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem 0;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.tekst-om-vingaarden,
+.tekst-besoeg-vingaard,
+.tekst-produktion,
+.tekst-baeredygtighed {
+  max-width: 500px;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 6px 6px 10px rgba(0,0,0,0.4);
+}
+.tekst-om-vingaarden,
+.tekst-besoeg-vingaard,
+.tekst-produktion,
+.tekst-baeredygtighed, h2{
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.8rem;
+}
+
+.tekst-om-vingaarden {
+  background-color: #8C4F34;
+}
+
+.tekst-besoeg-vingaard {
+  background-color: #D4A373;
+}
+
+.tekst-produktion {
+  background-color: #B08968;
+}
+
+.tekst-baeredygtighed {
+  background-color: #78866B;
+}
+
+.billede-om-vingaarden,
+.billede-besoeg-vingaard,
+.billede-produktion,
+.billede-baeredygtighed {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+ 
+}
+
+.knap-besoeg {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #B5975B;
+  color: white;
+  font-weight: bold;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  cursor: pointer;
+  border-radius: 8px;
+  border: black solid 1px;
+}
