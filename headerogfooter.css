@@ -19,15 +19,17 @@
 
   body, html {
     height: 100%;
-    font-family: "MyFont", sans-serif; /* Use the custom font */
-    
+    font-family: "MyFont", sans-serif; /* Use the custom font */ 
   }
 /* Header */
-.header{
-    background-color: #B5A38F;
-    
+.header {
+  background-color: #B5A38F; /* Header background color */
+  position: fixed; /* Makes the header sticky */
+  top: 0; /* Sticks the header to the top of the page */
+  z-index: 1000; /* Ensures the header stays above other elements */
+  text-align: center; /* Centers the content inside the header */
+  width: 100%; /* Full width of the header */
 }
-
 .nav{
     display: flex;
     justify-content: space-around;
@@ -136,5 +138,6 @@ nav a:hover {
     margin-left: 100px;
     margin-right: 100px;
     font-family: "Intro", sans-serif; /* Use the custom font */
+    margin-top: 200px;
 
 }

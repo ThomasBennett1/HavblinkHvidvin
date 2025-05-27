@@ -1,0 +1,209 @@
+/* Kopiering af CSS kode fra kontakt siden */
+h4{
+    font-size: 5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+.kontaktsektion {
+    padding: 40px 20px;
+    max-width: 1800px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  
+  .kontakt-intro {
+    background-color: #b6865c;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    margin-top: -125px;
+  }
+  
+  .kontakt-intro h2 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .kontakt-intro p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  
+  .kontakt-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    max-width: 1900px;
+    text-align: center;
+  }
+  
+  .info-box {
+    padding: 40px;
+    width: 100%;
+    max-width: 48%;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+  .information {
+    background-color: #8f4f2d;
+    color: white;
+  }
+  
+  .åbningstider {
+    background-color: #d8985e;
+    color: white;
+  }
+  
+  .info-box h3 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .info-box p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  
+  .info-box a {
+    color: #f1c690;
+    text-decoration: none;
+  }
+  
+  .tak-boks {
+    background-color: #70896d;
+    color: white;
+    padding: 40px;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .tak-boks h3 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .tak-boks p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+
+/* Dansk Hvidvin Facts Section */
+
+  .fakta-dansk-hvidvin {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .fakta-dansk-hvidvin h2 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .fakta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 8rem;
+    row-gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .fakta-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fakta-item img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .fakta-item h3 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+  }
+  
+  .fakta-item p {
+    font-size: 1.3rem;
+    max-width: 400px;
+    text-align: justify;
+  }
+
+  /* Dansk Hvidvin Internationalt Section */
+
+  .verdenskort-vin {
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .verdenskort-vin h2 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .lande-grid {
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .land {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .land img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+    
+  }
+  
+  .land h3 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  
+  .land h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  
+  .land p {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    max-width: 450px;
+    text-align: justify;
+  }
+  
+  .rating {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    font-size: 2rem!important;
+  }
