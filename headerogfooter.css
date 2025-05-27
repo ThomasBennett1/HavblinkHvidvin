@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'MyFont'; /* Name of the font */
+  src: url('Font/Akshar-VariableFont_wght.ttf') format('ttf'), /* Modern browsers */
+       url('Font/Akshar-VariableFont_wght.ttf') format('ttf');   /* Fallback for older browsers */
+  font-weight: normal; /* Optional: Define the weight */
+  font-style: normal;  /* Optional: Define the style */
+}
+@font-face {
+  font-family: 'Intro'; /* Name of the font */
+  src: url('Font/Kalam-Regular.ttf') format('truetype'); /* Modern browsers */
+  font-weight: normal; /* Optional: Define the weight */
+  font-style: normal;  /* Optional: Define the style */
+}
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +19,8 @@
 
   body, html {
     height: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: "MyFont", sans-serif; /* Use the custom font */
+    
   }
 /* Header */
 .header{
@@ -111,3 +125,14 @@ nav a:hover {
     font-size: 1.5 rem;
     margin-top: 30px;
   }
+
+
+  h1{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Intro", sans-serif; /* Use the custom font */
+}

@@ -1,72 +1,95 @@
-.havblink-section {
-    max-width: 1200px;
+@font-face {
+  font-family: 'Intro'; /* Name of the font */
+  src: url('Font/Kalam-Regular.ttf') format('truetype'); /* Modern browsers */
+  font-weight: normal; /* Optional: Define the weight */
+  font-style: normal;  /* Optional: Define the style */
+}
+/* Sektionen for hele oplevelsen */
+.havblink-oplevelse {
+    padding: 40px 20px;
+    max-width: 800px;
     margin: auto;
-    padding: 20px;
   }
   
-  .intro-text, .closing-text {
+  .oplevelse-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+  }
+  
+  .intro-tekst {
+    grid-column: 1 / -1;
+    font-family: "Intro", sans-serif;
     text-align: center;
-    font-style: italic;
+    margin-bottom: -220px;
+    margin-top: 50px;
+    max-width: 300px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 50px;
+  }
+  
+  .outro-tekst {
+    grid-column: 1 / -1;
+    text-align: right;
+    font-family: "Intro", sans-serif;
+    margin-top: -120px;
+    font-size: 1.5rem;
+    max-width: 300px;
+    margin-left: 440px;
+    line-height: 2rem;
+  }
+  
+  .oplevelse-billede {
+    width: 375px;
+    height: auto;
+    display: block;
+    box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.4);
+  }
+    .druer-billede img {
+        margin-top: -120px;
+    }
+  
+  .tekstboks {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 3px rgba(0, 0, 0, 0.4);
+    line-height: 2rem;
+    text-align: justify;
+  }
+  .tekstboks h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 3rem;
     margin-bottom: 20px;
   }
   
-  .columns {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+  .brun-boks {
+    background-color: #B08968;
+    color: white;
+    
+  }
+  .mørk-brun-boks {
+    background-color: #8C4F34;
+    color: white;
+    margin-top: 150px;
   }
   
-  .column {
-    flex: 1;
-    min-width: 280px;
-    max-width: 350px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  .orange-boks {
+    background-color: #d89c5a;
+    color: white;
+    margin-top: -230px;
   }
   
-  .card {
-    padding: 20px;
-    border-radius: 5px;
-    color: #fff;
+  .groen-boks {
+    background-color: #6b8b72;
+    color: white;
+    margin-top: -160px;
   }
   
-  .card-dark {
-    background-color: #7B3F30;
-  }
-  
-  .card-orange {
-    background-color: #D19A66;
-    color: #000;
-  }
-  
-  .card-light {
-    background-color: #A9A9A9;
-  }
-  
-  .card-green {
-    background-color: #789262;
-  }
-  
-  .card a {
-    color: #fff;
+  a {
+    color: #ffffff;
     text-decoration: underline;
-  }
-  
-  .card-orange a {
-    color: #000;
-  }
-  
-  img {
-    width: 350px;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  @media (max-width: 768px) {
-    .columns {
-      flex-direction: column;
-    }
   }
   

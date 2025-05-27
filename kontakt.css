@@ -1,0 +1,91 @@
+.kontaktsektion {
+    font-family: Arial, sans-serif;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .kontakt-intro {
+    background-color: #b6865c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+  
+  .kontakt-intro h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .kontakt-intro p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  
+  .kontakt-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .info-box {
+    padding: 20px;
+    width: 100%;
+    max-width: 48%;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .information {
+    background-color: #8f4f2d;
+    color: white;
+  }
+  
+  .åbningstider {
+    background-color: #d8985e;
+    color: white;
+  }
+  
+  .info-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .info-box p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  
+  .info-box a {
+    color: #f1c690;
+    text-decoration: none;
+  }
+  
+  .tak-boks {
+    background-color: #70896d;
+    color: white;
+    padding: 25px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .tak-boks h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .tak-boks p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
