@@ -1,5 +1,4 @@
 .kontaktsektion {
-    font-family: Arial, sans-serif;
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -19,7 +18,7 @@
   }
   
   .kontakt-intro h2 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
   }
   
@@ -54,7 +53,7 @@
   }
   
   .info-box h3 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -81,7 +80,7 @@
   }
   
   .tak-boks h3 {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin-bottom: 15px;
   }
   
