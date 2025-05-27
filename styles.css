@@ -1,7 +1,13 @@
 @font-face {
   font-family: 'MyFont'; /* Name of the font */
-  src: url('Font/Akshar-VariableFont_wght.ttf') format('ttf'), /* Modern browsers */
-       url('Font/Akshar-VariableFont_wght.ttf') format('ttf');   /* Fallback for older browsers */
+  src: url('Font/Akshar-VariableFont_wght.ttf') format('truetype'), /* Modern browsers */
+       url('Font/Akshar-VariableFont_wght.ttf') format('truetype');   /* Fallback for older browsers */
+  font-weight: normal; /* Optional: Define the weight */
+  font-style: normal;  /* Optional: Define the style */
+}
+@font-face {
+  font-family: 'Intro'; /* Name of the font */
+  src: url('Font/Kalam-Regular.ttf') format('truetype'); /* Modern browsers */
   font-weight: normal; /* Optional: Define the weight */
   font-style: normal;  /* Optional: Define the style */
 }
@@ -58,24 +64,28 @@
   .nav a {
     color: white; /* Set the text color to white */
     text-decoration: none; /* Remove underline from links */
-    font-size: 1.2rem; /* Optional: Adjust font size */
+    font-size: 1.7rem; /* Optional: Adjust font size */
     padding: 0.5rem; /* Optional: Add padding for spacing */
-    margin-top: 75px;
+    margin-top: 120px;
 }
 .nav a:hover {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: #b49b5b;
 }
 
   .logo {
-    margin: 1rem 0;
+    margin-top: 50px;
+    margin-left: 20px;
     width: 175px;
+    height: auto;
   }
 
   .headline {
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     font-weight: bold;
     margin-top: 7.5rem;
     max-width: 90%;
+    font-family: "Intro", sans-serif; /* Use the custom font */
   }
 
   .arrow {
@@ -117,17 +127,18 @@
   }
   
   .about-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 1.2rem;
-    margin-top: 1rem;
+    margin-top: 0.4rem;
     text-align: center;
   }
   
   .about-text {
     margin-bottom: 1rem;
     line-height: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   /* award section */
@@ -164,19 +175,20 @@
   }
   
   .award-title {
-    font-size: 2.2rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 2rem;
-    margin-top: -3rem;
+    margin-top: 1rem;
     text-align: center;
-    line-height: 3rem;
+    line-height: 4rem;
 
   }
   
   .award-paragraph {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     margin-bottom: 2rem;
+    text-align: justify;
   }
   
   .award-buttons {
@@ -195,6 +207,8 @@
     box-shadow: 4px 4px 1px rgba(0,0,0,0.4);
     border-radius: 4px;
     border: 1px solid black;
+    font-size: 1.5rem;
+    max-width: 200px;
   }
     .award-button:hover {
         background-color: white;
@@ -219,13 +233,14 @@
     flex: 1;
     min-width: 550px;
     margin-left: 5rem;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 2.5rem;
     margin-top: 3rem;
+    font-weight: normal;
   }
   
   .hb-footer h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
   }
@@ -256,6 +271,6 @@
   
   .hb-footer-bottom {
     text-align: center;
-    font-size: 1.5 rem;
+    font-size: 1.3rem;
     margin-top: 30px;
   }

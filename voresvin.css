@@ -1,7 +1,6 @@
 
 
 .kystbris-feature {
-    font-family: sans-serif;
     padding: 40px 20px;
     max-width: 1100px;
     margin:0 auto;
@@ -11,7 +10,7 @@
   .kystbris-feature h3 {
     text-align: center;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 50px;
   }
   
@@ -40,7 +39,7 @@
   }
   
   .wine-info h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 50px;
@@ -48,9 +47,13 @@
   
   .wine-info p {
     margin: 10px 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.5;
+    text-align: justify;
   }
+  strong {
+    font-weight: bold; /* This removes the bold styling */
+}
  
 
   .rating img {
@@ -68,8 +71,8 @@
     margin-top: 10px;
     box-shadow: 3px 3px 6px rgba(0,0,0,0.7);
     border-radius: 8px;
-    margin-left: 40%;
-    margin-top: 30px;
+    max-width: 150px;
+    margin-left: 33%;
     margin-bottom:30px;
   }
     .buy-btn:hover {
@@ -103,6 +106,7 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
+    font-size: 1.3rem;
   }
   
   .review-header img {
