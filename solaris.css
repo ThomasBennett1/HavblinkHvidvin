@@ -118,4 +118,54 @@
     border-radius: 8px;
     margin-left: 33%;
     font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 30px;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+      padding: 0 1rem;
+    }
+  
+    .solaris-druen .solaris-indhold,
+    .anerkendelse .anerkendelse-indhold {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .solaris-billede,
+    .decanter-badge {
+      width: 100%;
+      height: auto;
+    }
+  
+    .kolonner {
+      flex-direction: column;
+      padding: 0 1rem;
+      gap: 1rem;
+    }
+  
+    .tekst-historie-solaris {
+      text-align: center;
+    }
+  
+    .solaris-tekst,
+    .tekst-anerkendelse {
+      padding: 0 1rem;
+    }
+    .solaris-tekst p{
+      margin-bottom: 50px;
+    }
+  
+    .knap-laes-mere {
+      font-size: 1rem;
+      padding: 0.6rem 1rem;
+      margin-left: 0;
+    }
+    .decanter-badge{
+      margin-top: 50px;
+    }
   }

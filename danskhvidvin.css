@@ -207,3 +207,52 @@ h4{
     margin-top: 0.5rem;
     font-size: 2rem!important;
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.4rem;
+      padding: 0 1rem;
+    }
+  
+    h4 {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  
+    .kontakt-info-wrapper {
+      flex-direction: column;
+      width: 210%;
+      margin: 0 auto;
+      gap: 50px;
+      margin-bottom: 50px;
+    }
+  
+    .fakta-grid {
+      grid-template-columns: 1fr;
+      padding: 0 1rem;
+    }
+  
+    .lande-grid {
+      grid-template-columns: 1fr;
+      padding: 0 1rem;
+    }
+  
+    .land {
+      text-align: left;
+    }
+  
+    .land img {
+      display: block;
+      margin: 0 auto 1rem;
+    }
+    .verdenskort-vin h2,
+    .fakta-dansk-hvidvin h2{
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+    h4{
+      font-size: 3rem;
+      
+    }
+  
+  }

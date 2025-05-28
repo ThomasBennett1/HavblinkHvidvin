@@ -4,24 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="headerogfooter.css">
+    <link rel="stylesheet" href="burgermenu.css">
     <title>Vores Vin</title>
 </head>
 <body>
-    <header>
-        <div class="header">
-            <nav class="nav">
-              <a href="#" class="active">VORES VIN</a>
-              <a href="voreshistorie.html">VORES HISTORIE</a>
-              <a href="solaris.html">SOLARIS</a>
-              <img src="pics/logo.png" alt="Havblink Logo" class="logo" />
-              <a href="danskhvidvin.html">DANSK HVIDVIN</a>
-              <a href="vingårdsbesøg.html">VINGÅRDBESØG</a>
-              <a href="kontakt.html">KONTAKT</a>
-            </nav>
-    </header>
+  <header>
+    <div class="header">
+      
+      <a href="index.html" class="logo-link">
+        <img src="pics/logo.png" alt="Havblink Logo" class="logo" />
+    </a>
+        <!-- Burger Menu Button -->
+        <button class="burger-menu" aria-label="Toggle navigation">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <nav class="nav">
+            <a href="#" class="active">VORES VIN</a>
+            <a href="voreshistorie.html">VORES HISTORIE</a>
+            <a href="solaris.html">SOLARIS</a>
+            <!-- Logo -->
+        <a href="index.html" class="logo-link">
+          <img src="pics/logo.png" alt="Havblink Logo" class="logo" />
+      </a>
+            <a href="danskhvidvin.html">DANSK HVIDVIN</a>
+            <a href="vingårdsbesøg.html">VINGÅRDBESØG</a>
+            <a href="kontakt.html">KONTAKT</a>
+        </nav>
+    </div>
+</header>
 
     <main>
-
+<h1>VOres von</h1>
     </main>
 
     <footer>
@@ -48,6 +65,15 @@
     
     </footer>
 
-
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const burgerMenu = document.querySelector(".burger-menu");
+          const nav = document.querySelector(".nav");
+  
+          burgerMenu.addEventListener("click", function () {
+              nav.classList.toggle("active"); // Toggle the "active" class on the nav
+          });
+      });
+  </script>
 </body>
 </html>

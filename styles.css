@@ -99,13 +99,13 @@
     height: auto; /* Maintain aspect ratio */
 }
 
+
 /* about section */
 .about-section {
-    position: relative;
     width: 100%;
     height: auto;
     overflow: hidden;
-    
+    display: flex;
   }
   
   .about-background {
@@ -116,7 +116,7 @@
   
   .about-overlay {
     position: absolute;
-    top: 10%;
+    top: 105%;
     left: 5%;
     right: 5%;
     background-color: rgba(255, 255, 255, 0.7);
@@ -274,3 +274,59 @@
     font-size: 1.3rem;
     margin-top: 30px;
   }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hb-logo img {
+        width: 150px; /* Reduce logo size */
+    }
+
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .about-section {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;
+    }
+
+    .about-background,
+    .about-overlay {
+        width: 100%; /* Make both elements full width */
+    }
+
+    .about-overlay {
+        margin-top: 1rem; /* Add spacing between the image and text */
+    }
+
+    .hb-footer-bottom {
+        font-size: 1.1rem; /* Reduce footer font size */
+    }
+}
+
+/* Responsive Design for Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .hb-logo img {
+        width: 120px; /* Further reduce logo size */
+    }
+
+    .hero-content {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        padding: 1rem;
+    }
+    .about-section{
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;
+    }
+
+    .about-overlay {
+        padding: 1rem; /* Reduce padding for smaller screens */
+        max-width: 90%; /* Make the overlay more responsive */
+        height: auto; /* Allow height to adjust based on content */
+        margin-top: 1rem; /* Add spacing between the image and text */
+    }
+
+    .hb-footer-bottom {
+        font-size: 1rem; /* Further reduce footer font size */
+    }
+}

@@ -74,6 +74,9 @@
     max-width: 150px;
     margin-left: 33%;
     margin-bottom:30px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
   }
     .buy-btn:hover {
         background-color: white;
@@ -115,3 +118,35 @@
     border-radius: 50%;
     object-fit: cover;
   }
+
+  @media (max-width: 768px) {
+    .kystbris-feature {
+        padding: 20px 10px; /* Reduce padding */
+    }
+
+    .kystbris-feature h3 {
+        font-size: 2.5rem; /* Reduce heading size */
+        margin-bottom: 30px;
+    }
+
+    .kystbris-content {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+        gap: 20px; /* Reduce gap */
+    }
+
+    .wine-img {
+        width: 200px; /* Reduce image size */
+        margin-left: 0; /* Center the image */
+    }
+
+    .right-section {
+        max-width: 90%; /* Make the text full width */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center-align text */
+    }
+
+    .wine-info h2 {
+        font-size: 3rem; /* Reduce heading size */
+    }
+}
