@@ -8,22 +8,48 @@
 </head>
 <body>
  
-<heaader>
-    <div class="hero">
-        <img src="pics/heroimg.png" alt="Vineyard Background" class="background" />
+<header>
+          <!-- Logo -->
+          <a href="forside.html" id="logo">
+            <img src="pics/logo.png" alt="Havblink Logo" />
+        </a>
     
-        <div class="hero-content">
-          
-          <nav class="nav">
-            <a href="voresvin.html">VORES VIN</a>
+        <!-- Laptop Navigation (Desktop View) -->
+        <nav id="laptopnav">
+            <a href="voresvin.html"class="active">VORES VIN</a>
             <a href="voreshistorie.html">VORES HISTORIE</a>
             <a href="solaris.html">SOLARIS</a>
-            <img src="pics/logo.png" alt="Havblink Logo" class="logo" />
+            <div class="logo2">
+            <a href="forside.html" id="logo2">
+                <img src="pics/logo.png" alt="Havblink Logo" />
+            </a>
+        </div>
             <a href="danskhvidvin.html">DANSK HVIDVIN</a>
             <a href="vingårdsbesøg.html">VINGÅRDBESØG</a>
             <a href="kontakt.html">KONTAKT</a>
-          </nav>
+        </nav>
     
+        <!-- Burger Menu Icon -->
+        <div id="burgericon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+        <!-- Mobile Navigation (Burger Menu) -->
+        <nav id="mobilnav">
+            <a href="voresvin.html" class="active">VORES VIN</a>
+            <a href="voreshistorie.html">VORES HISTORIE</a>
+            <a href="solaris.html">SOLARIS</a>
+            <a href="danskhvidvin.html">DANSK HVIDVIN</a>
+            <a href="vingårdsbesøg.html">VINGÅRDBESØG</a>
+            <a href="kontakt.html">KONTAKT</a>
+        </nav>
+        
+        <div class="hero">
+          <img src="pics/heroimg.png" alt="Vineyard Background" class="background" />
+
+    <div class="hero-content">
           <div class="headline">
             SMAGEN AF SYDFYN. DANSK HVIDVIN MED KARAKTER.
           </div>
@@ -32,7 +58,7 @@
         </div>
       </div>
    </div>
-</heaader>
+</header>
 
 <main>
     <section class="about-section">
@@ -99,6 +125,16 @@
       </div>
 
 </footer>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      const burgerIcon = document.getElementById("burgericon");
+      const mobileNav = document.getElementById("mobilnav");
+
+      burgerIcon.addEventListener("click", function () {
+          mobileNav.classList.toggle("active"); // Toggle the "active" class
+      });
+  });
+</script>
 
 </body>
 
