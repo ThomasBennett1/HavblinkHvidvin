@@ -141,3 +141,15 @@ nav a:hover {
     margin-top: 200px;
 
 }
+
+@media (max-width: 768px) {
+  .hb-logo img {
+    margin-left: 30px;
+    display: block; /* Ensure the logo behaves like a block element */
+  }
+
+  .hb-logo {
+    text-align: center; /* Center the logo container */
+    position: relative; /* Position relative for better control */
+  } 
+}

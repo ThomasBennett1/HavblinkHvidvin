@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tollundgaard golfklub</title>
+    <link rel="stylesheet" href="burgermenu.css">
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <a href="forside.html" id="logo">
+            <img src="pics/logo.png" alt="Havblink Logo" />
+        </a>
+    
+        <!-- Laptop Navigation (Desktop View) -->
+        <nav id="laptopnav">
+            <a href="voresvin.html"class="active">VORES VIN</a>
+            <a href="voreshistorie.html">VORES HISTORIE</a>
+            <a href="solaris.html">SOLARIS</a>
+            <div class=logo2>
+            <a href="forside.html" id="logo2">
+                <img src="pics/logo.png" alt="Havblink Logo" />
+            </a>
+        </div>
+            <a href="danskhvidvin.html">DANSK HVIDVIN</a>
+            <a href="vingårdsbesøg.html">VINGÅRDBESØG</a>
+            <a href="kontakt.html">KONTAKT</a>
+        </nav>
+    
+        <!-- Burger Menu Icon -->
+        <div id="burgericon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+        <!-- Mobile Navigation (Burger Menu) -->
+        <nav id="mobilnav">
+            <a href="voresvin.html" class="active">VORES VIN</a>
+            <a href="voreshistorie.html">VORES HISTORIE</a>
+            <a href="solaris.html">SOLARIS</a>
+            <a href="danskhvidvin.html">DANSK HVIDVIN</a>
+            <a href="vingårdsbesøg.html">VINGÅRDBESØG</a>
+            <a href="kontakt.html">KONTAKT</a>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+
+    <footer>
+        <div class="hb-footer">
+            <div class="hb-footer-content">
+              <div>
+                <h2>HAVBLINK HVIDVIN</h2>
+                <p>Havblink Vingård 64 , 5600 Faaborg</p>
+                <p>+45 22 10 47 76</p>
+                <p>kontakt@havblinkhvidvin.dk</p>
+                <div class="hb-socials">
+                  <a href="#"><img src="pics/facebook.png" alt="Facebook" /></a>
+                  <a href="#"><img src="pics/linkedin.png" alt="LinkedIn" /></a>
+                </div>
+              </div>
+              <div class="hb-logo">
+                <img src="pics/logo.png" alt="Havblink Logo" />
+              </div>
+            </div>
+            <div class="hb-footer-bottom">
+              © 2025 Havblink Hvidvin · Alle rettigheder forbeholdes
+            </div>
+          </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const burgerIcon = document.getElementById("burgericon");
+            const mobileNav = document.getElementById("mobilnav");
+    
+            burgerIcon.addEventListener("click", function () {
+                mobileNav.classList.toggle("active"); // Toggle the "active" class
+            });
+        });
+    </script>
+</body>
+</html>
