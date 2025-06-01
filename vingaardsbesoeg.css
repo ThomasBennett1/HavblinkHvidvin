@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'Intro'; /* Name of the font */
+  src: url('Font/Kalam-Regular.ttf') format('truetype'); /* Modern browsers */
+  font-weight: normal; /* Optional: Define the weight */
+  font-style: normal;  /* Optional: Define the style */
+}
+/* Sektionen for besøg*/
+.introduktion {
+  font-family: "Intro", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 350px;
+  margin-left: 350px;
+  margin-bottom: -175px;
+  position: relative;
+  margin-top: 200px;
+}
+
+.tekst-besoeg {
+  background-color: #8C4F34;
+  color: white;
+  padding: 2rem;
+  max-width: 350px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.4);
+  margin-top: 150px;
+}
+.tekst-besoeg h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.tekst-besoeg p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.billede-besoeg {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.4);
+  display: flex;
+}
+
+.sektion.besoeg {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+  margin: 2rem 0;
+}
+
+/* Sektionen for rundvisning*/
+
+.tekst-rundvisning {
+  background-color: #D4A373;
+  color: white;
+  padding: 2rem;
+  max-width: 350px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: -175px;
+}
+.tekst-rundvisning h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.tekst-rundvisning p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.billede-rundvisning {
+  width: 350px;
+  height: 650px;
+  object-fit: cover;
+  position: relative;
+  top:50px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.4);
+}
+
+.sektion.rundvisning {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+  margin: 2rem 0;
+}
+
+/* Sektionen for info*/
+
+.tekst-information {
+  background-color: #B08968;
+  color: white;
+  padding: 2rem;
+  max-width: 350px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: 90px;
+}
+.tekst-information h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.tekst-information p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.billede-information {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  top: -125px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.4);
+}
+
+.sektion.information {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+  margin: 2rem 0;
+}
+
+/* Sektionen for event*/
+
+.tekst-event {
+  background-color: #78866B;
+  color: white;
+  padding: 2rem;
+  max-width: 350px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: -275px;
+}
+.tekst-event h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.tekst-event p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.billede-event {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  top: -60px;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.4);
+}
+
+.sektion.event {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+  margin: 2rem 0;
+}
+
+.afslutning {
+  text-align: center;
+  font-family: "Intro", sans-serif;
+  font-size: 1.8rem;
+  margin: 2rem auto;
+  max-width: 350px;
+  margin-left: 775px;
+  position: relative;
+  top: -225px;
+  margin-bottom: -100px;
+}
+
+
+  @media (max-width: 768px) {
+
+    .introduktion {
+      margin-left: 0;
+      margin-top: 200px;
+      max-width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .sektion.besoeg,
+    .sektion.rundvisning,
+    .sektion.information,
+    .sektion.event {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .billede-besoeg,
+    .billede-rundvisning,
+    .billede-information,
+    .billede-event{
+      order: -1; /* Vis billedet før teksten */
+      width: 70%;
+      height: auto;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .billede-besoeg{
+      margin-top: 175px;
+    }
+    .billede-rundvisning{
+      margin-bottom: 225px;
+    }
+    .billede-information{
+      margin-bottom: -225px;
+    }
+    .billede-event{
+      margin-top: 200px;
+      margin-bottom: 200px;
+    }
+    
+    .tekst-besoeg,
+    .tekst-rundvisning,
+    .tekst-information,
+    .tekst-event {
+      width: 80%;
+      margin-bottom: 50px;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    .afslutning {
+      margin-left: 0;
+      margin-top: 75px;
+      max-width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
